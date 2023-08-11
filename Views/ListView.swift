@@ -12,9 +12,9 @@ struct ListView: View {
     @EnvironmentObject var listViewModel: ListViewModel
     
     var body: some View {
-        
     }
 }
+
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
