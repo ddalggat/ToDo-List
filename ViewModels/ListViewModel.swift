@@ -15,5 +15,19 @@ class ListViewModel: ObservableObject {
         }
     }
     
+    let itemsKey: String = "itemsList"
     
+    init() {
+        getItems()
+    }
+    
+    func getItems() {
+        
+    }
+    
+    func saveItems() {
+        if let encodedData = try? JSONEncoder().encode(items) {
+            UserDefaults.standard.set(encodedData, forKey: itemsKey)
+        }
+    }
 }
