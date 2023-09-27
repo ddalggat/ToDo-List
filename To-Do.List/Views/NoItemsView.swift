@@ -49,4 +49,27 @@ struct NoItemsView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
     
+    func addAnimation() {
+        guard !animate else { return }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            withAnimation(
+                Animation
+                    .easeInOut(duration: 2.0)
+                    .repeatForever()
+            ) {
+                animate.toggle()
+            }
+        }
+    }
     
+}
+
+struct NoItemsView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationView {
+            NoItemsView()
+                .navigationTitle("Title")
+        }
+    }
+}
+
