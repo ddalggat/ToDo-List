@@ -69,3 +69,22 @@ struct AddView: View {
     
 }
 
+// MARK: PREVIEW
+
+struct AddView_Previews: PreviewProvider {
+    static var previews: some View {
+        Group {
+            NavigationView {
+                AddView()
+            }
+            .preferredColorScheme(.light)
+            .environmentObject(ListViewModel())
+            NavigationView {
+                AddView()
+            }
+            .preferredColorScheme(.dark)
+            .environmentObject(ListViewModel())
+
+        }
+    }
+}
