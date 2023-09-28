@@ -46,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				BBCA86B72A8810FA0030B459 /* To-Do.List */,
-				BBCA86C92A88EE870030B459 /* Views */,
-				BBCA86CA2A88EEBC0030B459 /* ViewModels */,
 				BBCA86B62A8810FA0030B459 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,6 +61,8 @@
 		BBCA86B72A8810FA0030B459 /* To-Do.List */ = {
 			isa = PBXGroup;
 			children = (
+				BBCA86CA2A88EEBC0030B459 /* ViewModels */,
+				BBCA86C92A88EE870030B459 /* Views */,
 				BBCA86B82A8810FA0030B459 /* To_Do_ListApp.swift */,
 				BBCA86BA2A8810FA0030B459 /* ContentView.swift */,
 				BBCA86C62A8811DF0030B459 /* Models */,
