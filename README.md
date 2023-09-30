@@ -1,5 +1,5 @@
 # To-Do List App
-## *An iOS application on SwiftKey that allows users to add new tasks, save them even when exiting the application, mark tasks completed, delete them, and change their priority if necessary*
+## *An iOS application on SwiftUI that allows users to add new tasks, save them even when exiting the application, mark tasks completed, delete them, and change their priority if necessary*
 *
 
 ## The application has:
