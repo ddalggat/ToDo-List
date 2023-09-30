@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BB111C9D2AC8802E00F5BE8B /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB111C9C2AC8802E00F5BE8B /* ListRowView.swift */; };
+		BB7788522AC8BB1A001A9E81 /* AddItem.gif in Resources */ = {isa = PBXBuildFile; fileRef = BB7788502AC8BB1A001A9E81 /* AddItem.gif */; };
+		BB7788532AC8BB1A001A9E81 /* Animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = BB7788512AC8BB1A001A9E81 /* Animation.gif */; };
 		BBCA86B92A8810FA0030B459 /* To_Do_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA86B82A8810FA0030B459 /* To_Do_ListApp.swift */; };
 		BBCA86BD2A8810FA0030B459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCA86BC2A8810FA0030B459 /* Assets.xcassets */; };
 		BBCA86C02A8810FA0030B459 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCA86BF2A8810FA0030B459 /* Preview Assets.xcassets */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		BB111C9C2AC8802E00F5BE8B /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		BB7788502AC8BB1A001A9E81 /* AddItem.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AddItem.gif; sourceTree = "<group>"; };
+		BB7788512AC8BB1A001A9E81 /* Animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Animation.gif; sourceTree = "<group>"; };
 		BBCA86B52A8810FA0030B459 /* To-Do.List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-Do.List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCA86B82A8810FA0030B459 /* To_Do_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListApp.swift; sourceTree = "<group>"; };
 		BBCA86BC2A8810FA0030B459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,9 +46,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB77884F2AC8BAE1001A9E81 /* GIFs */ = {
+			isa = PBXGroup;
+			children = (
+				BB7788502AC8BB1A001A9E81 /* AddItem.gif */,
+				BB7788512AC8BB1A001A9E81 /* Animation.gif */,
+			);
+			path = GIFs;
+			sourceTree = "<group>";
+		};
 		BBCA86AC2A8810FA0030B459 = {
 			isa = PBXGroup;
 			children = (
+				BB77884F2AC8BAE1001A9E81 /* GIFs */,
 				BBCA86B72A8810FA0030B459 /* To-Do.List */,
 				BBCA86B62A8810FA0030B459 /* Products */,
 			);
@@ -164,6 +178,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB7788522AC8BB1A001A9E81 /* AddItem.gif in Resources */,
+				BB7788532AC8BB1A001A9E81 /* Animation.gif in Resources */,
 				BBCA86C02A8810FA0030B459 /* Preview Assets.xcassets in Resources */,
 				BBCA86BD2A8810FA0030B459 /* Assets.xcassets in Resources */,
 			);
